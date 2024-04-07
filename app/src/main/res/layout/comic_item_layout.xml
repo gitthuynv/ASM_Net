@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/cvComic">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/imgComic"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/banner1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên truyện:"
+                    android:textStyle="bold"/>
+                <TextView
+                android:id="@+id/tvTenTruyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tên truyện"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thể loại:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvTheLoai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="thể loại"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tác giả:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvTacGia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tác giả"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Năm xuất bản:"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvNamXB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tác giả"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
